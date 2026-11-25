@@ -1,0 +1,399 @@
+PROJECT 2 — VALIDATION ERROR LOG
+============================================================
+
+Project: University Adoptions Explorer
+Date: November 25th, 2026
+Technologies: MongoDB, Node.js, Express, React, HTML5, CSS3
+
+============================================================
+1. HTML VALIDATION
+============================================================
+
+Tool: W3C Nu HTML Checker
+URL: https://validator.w3.org/nu/
+Validator version: vnu 26.11.20
+File: frontend/index.html
+Validation method: File upload
+Parser: HTML parser
+Execution time: 2 milliseconds
+
+INITIAL DOCUMENTED VALIDATION
+
+Errors: 0
+Warnings: 0
+Status: PASSED
+
+Official validator message:
+"Document checking completed. No errors or warnings to show."
+
+No actual HTML validation errors were reported.
+
+The following entries document potential issues and preventive
+implementation practices. They are illustrative examples,
+not errors reported by the validator.
+
+------------------------------------------------------------
+Issue ID: HTML-01
+------------------------------------------------------------
+
+Issue: Missing document language declaration.
+Validator message: No actual error reported.
+File and location: frontend/index.html, html element.
+Category: HTML structure / Accessibility.
+Root cause: Omitting the lang attribute prevents assistive
+technologies from reliably identifying the document language.
+
+Before (illustrative):
+<html>
+
+After (implemented):
+<html lang="en">
+
+Correction: Added the lang attribute to declare English as
+the primary document language.
+
+Origin: Preventive implementation example.
+Validation result: index.html passed with zero errors
+and zero warnings.
+
+------------------------------------------------------------
+Issue ID: HTML-02
+------------------------------------------------------------
+
+Issue: Incorrect form label association.
+Validator message: No actual error reported.
+File and location: frontend/src/App.jsx, adoption search form.
+Category: Accessibility / Semantic HTML.
+Root cause: The label references an identifier that does not
+match the corresponding input element.
+
+Before (illustrative):
+<label htmlFor="id">Adoption ID</label>
+<input id="adoption-id" type="number" />
+
+After (implemented approach):
+<label htmlFor="adoption-id">Adoption ID</label>
+<input id="adoption-id" type="number" />
+
+Correction: Matched the htmlFor attribute with the input id.
+
+Origin: Preventive implementation example.
+Validation result: Rendered React HTML validation not confirmed.
+
+------------------------------------------------------------
+Issue ID: HTML-03
+------------------------------------------------------------
+
+Issue: Lack of semantic document structure.
+Validator message: No actual error reported.
+File and location: frontend/src/App.jsx, page header.
+Category: Semantic HTML / Accessibility.
+Root cause: Generic containers provide less structural
+meaning than semantic HTML elements.
+
+Before (illustrative):
+<div className="site-header">
+
+After (implemented):
+<header className="site-header">
+
+Correction: Used semantic HTML elements, including header,
+main, section, and footer.
+
+Origin: Preventive implementation example.
+Validation result: Rendered React HTML validation not confirmed.
+
+------------------------------------------------------------
+Issue ID: HTML-04
+------------------------------------------------------------
+
+Issue: Missing responsive viewport configuration.
+Validator message: No actual error reported.
+File and location: frontend/index.html, head element.
+Category: Responsive design / Usability.
+Root cause: Missing viewport metadata can result in an
+unsuitable layout viewport on mobile devices.
+
+Before (illustrative):
+No viewport meta element.
+
+After (implemented):
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+Correction: Included responsive viewport metadata.
+
+Origin: Preventive implementation example.
+Validation result: index.html passed with zero errors
+and zero warnings.
+
+============================================================
+2. CSS VALIDATION
+============================================================
+
+Tool: W3C CSS Validation Service
+URL: https://jigsaw.w3.org/css-validator/
+File: frontend/src/App.css
+Validation method: File upload
+Validation profile: CSS Level 3 + SVG
+
+INITIAL DOCUMENTED VALIDATION
+
+Errors: 0
+Warnings: Not confirmed by captured evidence.
+Status: PASSED
+
+Official validator messages:
+"Congratulations! No Error Found."
+"This document validates as CSS level 3 + SVG!"
+
+No actual CSS validation errors were reported.
+
+The following entries document potential CSS issues and
+preventive implementation practices.
+
+------------------------------------------------------------
+Issue ID: CSS-01
+------------------------------------------------------------
+
+Issue: Invalid CSS property name.
+Validator message: No actual error reported.
+File and location: frontend/src/App.css, button selector.
+Category: CSS syntax / Property validation.
+Root cause: Incorrect spelling of a standardized CSS property.
+
+Before (illustrative):
+background-colour: #174e80;
+
+After (implemented):
+background-color: #174e80;
+
+Correction: Used the standardized background-color property.
+
+Origin: Preventive implementation example.
+Validation result: App.css passed with zero errors.
+
+------------------------------------------------------------
+Issue ID: CSS-02
+------------------------------------------------------------
+
+Issue: Missing CSS measurement unit.
+Validator message: No actual error reported.
+File and location: frontend/src/App.css, .panel selector.
+Category: CSS value validation.
+Root cause: A nonzero CSS padding length requires a valid
+measurement unit.
+
+Before (illustrative):
+padding: 20;
+
+After (implemented):
+padding: 1.5rem;
+
+Correction: Used a valid relative measurement unit.
+
+Origin: Preventive implementation example.
+Validation result: App.css passed with zero errors.
+
+------------------------------------------------------------
+Issue ID: CSS-03
+------------------------------------------------------------
+
+Issue: Excessive CSS specificity.
+Validator message: No actual error reported.
+File and location: frontend/src/App.css, .panel selector.
+Category: CSS specificity / Maintainability.
+Root cause: Overly specific selectors and unnecessary
+!important declarations make CSS difficult to maintain.
+
+Before (illustrative):
+main section.panel {
+    background-color: #ffffff !important;
+}
+
+After (implemented approach):
+.panel {
+    background-color: #ffffff;
+}
+
+Correction: Used a reusable class selector without
+unnecessary important declarations.
+
+Origin: Preventive implementation example.
+Validation result: App.css passed with zero errors.
+Note: CSS specificity is a code quality consideration,
+not necessarily a syntax validation error.
+
+------------------------------------------------------------
+Issue ID: CSS-04
+------------------------------------------------------------
+
+Issue: Missing keyboard focus indicators.
+Validator message: No actual error reported.
+File and location: frontend/src/App.css, focus selectors.
+Category: Accessibility / Keyboard navigation.
+Root cause: Removing focus outlines without providing an
+alternative makes keyboard navigation difficult.
+
+Before (illustrative):
+button:focus {
+    outline: none;
+}
+
+After (implemented):
+a:focus,
+input:focus,
+button:focus,
+.table-container:focus {
+    outline: 3px solid #b45309;
+    outline-offset: 3px;
+}
+
+Correction: Implemented visible focus indicators for
+interactive elements.
+
+Origin: Preventive implementation example.
+Validation result: App.css passed with zero errors.
+Note: Separate accessibility testing is required to verify
+keyboard navigation behavior.
+
+------------------------------------------------------------
+Issue ID: CSS-05
+------------------------------------------------------------
+
+Issue: Nonresponsive layout.
+Validator message: No actual error reported.
+File and location: frontend/src/App.css, .search-grid
+selector and media queries.
+Category: Responsive design / CSS optimization.
+Root cause: Layouts without appropriate responsive behavior
+may become difficult to use on smaller screens.
+
+Before (illustrative):
+.search-grid {
+    display: flex;
+}
+
+After (implemented approach):
+.search-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .search-grid {
+        display: block;
+        margin: 0;
+    }
+
+    .panel {
+        padding: 1rem;
+    }
+}
+
+Correction: Implemented flexible layouts and responsive
+media queries.
+
+Origin: Preventive implementation example.
+Validation result: App.css passed with zero errors.
+
+============================================================
+3. FINAL VALIDATION RESULTS
+============================================================
+
+HTML document: index.html
+HTML errors: 0
+HTML warnings: 0
+HTML validation status: PASSED
+
+CSS stylesheet: App.css
+CSS errors: 0
+CSS warnings: Not confirmed by captured evidence.
+CSS validation status: PASSED
+
+CSS validation profile: CSS Level 3 + SVG
+
+Total confirmed validation errors: 0
+Total confirmed HTML warnings: 0
+
+Preventive HTML issues analyzed: 4
+Preventive CSS issues analyzed: 5
+Total preventive issues analyzed: 9
+
+Actual validator-reported errors requiring correction: 0
+
+Rendered React HTML validation: Not confirmed.
+Lighthouse accessibility score: Not recorded.
+Production build: Not verified in the available evidence.
+
+Overall submitted-file validation status: PASSED
+
+============================================================
+4. REMAINING ISSUES AND LIMITATIONS
+============================================================
+
+No validation errors were reported in the submitted HTML
+document or CSS stylesheet.
+
+The CSS warning count could not be confirmed from the
+captured validation screenshot.
+
+The rendered React HTML requires separate validation because
+the index.html document does not contain every dynamically
+generated application element.
+
+The preventive implementation examples demonstrate
+standards-compliant development practices. They are not
+presented as actual validator-reported errors.
+
+Additional accessibility, responsive design, browser
+compatibility, and functional testing are necessary to
+evaluate application quality beyond syntax validation.
+
+============================================================
+5. VALIDATION EVIDENCE
+============================================================
+
+Evidence directory:
+documentation/screenshots/
+
+File: 08-html-validator-w3.png
+Description: W3C Nu HTML Checker results demonstrating
+successful HTML validation with zero errors and zero warnings.
+
+File: 09-css-validator-w3.png
+Description: W3C CSS Validation Service results demonstrating
+successful CSS Level 3 + SVG validation with zero errors.
+
+Additional documentation:
+validation-report.md
+
+Section 4: Error Identification and Analysis.
+Section 5: Corrections and Fix Implementation.
+Section 5.3: Final Validation.
+
+============================================================
+6. CONCLUSION
+============================================================
+
+The University Adoptions Explorer successfully passed the
+documented HTML and CSS validation checks.
+
+Preventive implementation practices were incorporated to
+support standards compliance, accessibility, responsiveness,
+browser compatibility, and maintainability.
+
+A total of nine potential implementation issues were
+categorized and analyzed, including four HTML-related
+issues and five CSS-related issues.
+
+The corresponding preventive solutions are documented
+through before-and-after code examples, root cause analysis,
+technical explanations, and official validation evidence.
+
+The results demonstrate that the submitted HTML document
+and CSS stylesheet contain no reported validation errors.
+
+============================================================
+END OF VALIDATION ERROR LOG
+============================================================

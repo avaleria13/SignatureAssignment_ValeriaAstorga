@@ -1,0 +1,272 @@
+[
+  {
+    "AdoptionID": 1,
+    "UniversityID": 100724,
+    "UniversityName": "Central Valley University",
+    "BookID": 101,
+    "BookTitle": "Introduction to Computer Science",
+    "AdoptionDate": "2025-05-07",
+    "Quantity": 27
+  },
+  {
+    "AdoptionID": 2,
+    "UniversityID": 100725,
+    "UniversityName": "Northbridge University",
+    "BookID": 102,
+    "BookTitle": "Database Systems",
+    "AdoptionDate": "2025-09-01",
+    "Quantity": 34
+  },
+  {
+    "AdoptionID": 3,
+    "UniversityID": 100726,
+    "UniversityName": "Westlake University",
+    "BookID": 103,
+    "BookTitle": "Web Development Fundamentals",
+    "AdoptionDate": "2025-04-01",
+    "Quantity": 41
+  },
+  {
+    "AdoptionID": 4,
+    "UniversityID": 100727,
+    "UniversityName": "Riverdale University",
+    "BookID": 104,
+    "BookTitle": "Operating Systems",
+    "AdoptionDate": "2025-07-27",
+    "Quantity": 48
+  },
+  {
+    "AdoptionID": 5,
+    "UniversityID": 100728,
+    "UniversityName": "Oakwood University",
+    "BookID": 105,
+    "BookTitle": "Data Structures and Algorithms",
+    "AdoptionDate": "2025-02-24",
+    "Quantity": 55
+  },
+  {
+    "AdoptionID": 6,
+    "UniversityID": 100724,
+    "UniversityName": "Central Valley University",
+    "BookID": 106,
+    "BookTitle": "Computer Networks",
+    "AdoptionDate": "2025-06-21",
+    "Quantity": 62
+  },
+  {
+    "AdoptionID": 7,
+    "UniversityID": 100725,
+    "UniversityName": "Northbridge University",
+    "BookID": 107,
+    "BookTitle": "Software Engineering",
+    "AdoptionDate": "2025-01-19",
+    "Quantity": 69
+  },
+  {
+    "AdoptionID": 8,
+    "UniversityID": 100726,
+    "UniversityName": "Westlake University",
+    "BookID": 108,
+    "BookTitle": "Discrete Mathematics",
+    "AdoptionDate": "2025-05-16",
+    "Quantity": 76
+  },
+  {
+    "AdoptionID": 9,
+    "UniversityID": 100727,
+    "UniversityName": "Riverdale University",
+    "BookID": 101,
+    "BookTitle": "Introduction to Computer Science",
+    "AdoptionDate": "2025-09-10",
+    "Quantity": 83
+  },
+  {
+    "AdoptionID": 10,
+    "UniversityID": 100728,
+    "UniversityName": "Oakwood University",
+    "BookID": 102,
+    "BookTitle": "Database Systems",
+    "AdoptionDate": "2025-04-10",
+    "Quantity": 90
+  },
+  {
+    "AdoptionID": 11,
+    "UniversityID": 100724,
+    "UniversityName": "Central Valley University",
+    "BookID": 103,
+    "BookTitle": "Web Development Fundamentals",
+    "AdoptionDate": "2025-08-05",
+    "Quantity": 97
+  },
+  {
+    "AdoptionID": 12,
+    "UniversityID": 100725,
+    "UniversityName": "Northbridge University",
+    "BookID": 104,
+    "BookTitle": "Operating Systems",
+    "AdoptionDate": "2025-03-05",
+    "Quantity": 23
+  },
+  {
+    "AdoptionID": 13,
+    "UniversityID": 100726,
+    "UniversityName": "Westlake University",
+    "BookID": 105,
+    "BookTitle": "Data Structures and Algorithms",
+    "AdoptionDate": "2025-06-30",
+    "Quantity": 30
+  },
+  {
+    "AdoptionID": 14,
+    "UniversityID": 100724,
+    "UniversityName": "Central Valley University",
+    "BookID": 106,
+    "BookTitle": "Computer Networks",
+    "AdoptionDate": "2025-01-28",
+    "Quantity": 37
+  },
+  {
+    "AdoptionID": 15,
+    "UniversityID": 100728,
+    "UniversityName": "Oakwood University",
+    "BookID": 107,
+    "BookTitle": "Software Engineering",
+    "AdoptionDate": "2025-05-25",
+    "Quantity": 44
+  },
+  {
+    "AdoptionID": 16,
+    "UniversityID": 100724,
+    "UniversityName": "Central Valley University",
+    "BookID": 108,
+    "BookTitle": "Discrete Mathematics",
+    "AdoptionDate": "2025-09-19",
+    "Quantity": 51
+  },
+  {
+    "AdoptionID": 17,
+    "UniversityID": 100725,
+    "UniversityName": "Northbridge University",
+    "BookID": 101,
+    "BookTitle": "Introduction to Computer Science",
+    "AdoptionDate": "2025-04-19",
+    "Quantity": 58
+  },
+  {
+    "AdoptionID": 18,
+    "UniversityID": 100726,
+    "UniversityName": "Westlake University",
+    "BookID": 102,
+    "BookTitle": "Database Systems",
+    "AdoptionDate": "2025-08-14",
+    "Quantity": 65
+  },
+  {
+    "AdoptionID": 19,
+    "UniversityID": 100727,
+    "UniversityName": "Riverdale University",
+    "BookID": 103,
+    "BookTitle": "Web Development Fundamentals",
+    "AdoptionDate": "2025-03-14",
+    "Quantity": 72
+  },
+  {
+    "AdoptionID": 20,
+    "UniversityID": 100728,
+    "UniversityName": "Oakwood University",
+    "BookID": 104,
+    "BookTitle": "Operating Systems",
+    "AdoptionDate": "2025-07-09",
+    "Quantity": 79
+  },
+  {
+    "AdoptionID": 21,
+    "UniversityID": 100724,
+    "UniversityName": "Central Valley University",
+    "BookID": 105,
+    "BookTitle": "Data Structures and Algorithms",
+    "AdoptionDate": "2025-02-06",
+    "Quantity": 86
+  },
+  {
+    "AdoptionID": 22,
+    "UniversityID": 100725,
+    "UniversityName": "Northbridge University",
+    "BookID": 106,
+    "BookTitle": "Computer Networks",
+    "AdoptionDate": "2025-06-03",
+    "Quantity": 93
+  },
+  {
+    "AdoptionID": 23,
+    "UniversityID": 100726,
+    "UniversityName": "Westlake University",
+    "BookID": 107,
+    "BookTitle": "Software Engineering",
+    "AdoptionDate": "2025-09-28",
+    "Quantity": 100
+  },
+  {
+    "AdoptionID": 24,
+    "UniversityID": 100727,
+    "UniversityName": "Riverdale University",
+    "BookID": 108,
+    "BookTitle": "Discrete Mathematics",
+    "AdoptionDate": "2025-04-28",
+    "Quantity": 26
+  },
+  {
+    "AdoptionID": 25,
+    "UniversityID": 100728,
+    "UniversityName": "Oakwood University",
+    "BookID": 101,
+    "BookTitle": "Introduction to Computer Science",
+    "AdoptionDate": "2025-08-23",
+    "Quantity": 33
+  },
+  {
+    "AdoptionID": 26,
+    "UniversityID": 100724,
+    "UniversityName": "Central Valley University",
+    "BookID": 102,
+    "BookTitle": "Database Systems",
+    "AdoptionDate": "2025-03-23",
+    "Quantity": 40
+  },
+  {
+    "AdoptionID": 27,
+    "UniversityID": 100725,
+    "UniversityName": "Northbridge University",
+    "BookID": 103,
+    "BookTitle": "Web Development Fundamentals",
+    "AdoptionDate": "2025-07-18",
+    "Quantity": 47
+  },
+  {
+    "AdoptionID": 28,
+    "UniversityID": 100726,
+    "UniversityName": "Westlake University",
+    "BookID": 104,
+    "BookTitle": "Operating Systems",
+    "AdoptionDate": "2025-02-15",
+    "Quantity": 54
+  },
+  {
+    "AdoptionID": 29,
+    "UniversityID": 100727,
+    "UniversityName": "Riverdale University",
+    "BookID": 105,
+    "BookTitle": "Data Structures and Algorithms",
+    "AdoptionDate": "2025-06-12",
+    "Quantity": 61
+  },
+  {
+    "AdoptionID": 30,
+    "UniversityID": 100728,
+    "UniversityName": "Oakwood University",
+    "BookID": 106,
+    "BookTitle": "Computer Networks",
+    "AdoptionDate": "2025-01-10",
+    "Quantity": 68
+  }
+]
